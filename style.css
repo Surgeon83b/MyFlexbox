@@ -1,0 +1,20 @@
+.box {
+    border: 1px solid red;
+    margin: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 140px;
+}
+.box div {
+    
+    width: 120px;
+    height: 120px;
+    border: 1px solid greenyellow;
+    margin: 10px;
+    padding: 25px;
+  }
+.box>* {
+    flex: 1 1 160px;
+}
